@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+    <id>rpmfusion_free-base</id>
+    <_name>Base (RPM Fusion Free)</_name>
+    <_description>Repo files for RPM Fusion free repo (currently still livna-release for testing purposes). </_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">rpmfusion-free-release</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>rpmfusion_free-gnome-desktop</id>
+    <_name>GNOME Desktop Environment (RPM Fusion Free)</_name>
+    <_description>GNOME is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">gnome-player</packagereq>
+      <packagereq type="optional">gstreamer-plugins-bad</packagereq>
+      <packagereq type="optional">gstreamer-plugins-bad-extras</packagereq>
+      <packagereq type="default">gstreamer-plugins-ugly</packagereq>
+      <packagereq type="optional">gstreamer-ffmpeg</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>rpmfusion_free-kde-desktop</id>
+    <_name>KDE (K Desktop Environment) (RPM Fusion Free)</_name>
+    <_description>KDE is a powerful, graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">amarok-extras-freeworld</packagereq>
+      <packagereq type="optional">akode-extras</packagereq>
+      <packagereq type="optional">k9copy</packagereq>
+      <packagereq type="optional">kino</packagereq>
+      <packagereq type="default">k3b-extras-freeworld</packagereq>
+      <packagereq type="optional">kplayer</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>rpmfusion_free-internet</id>
+    <_name>Internet (RPM Fusion Free)</_name>
+    <_description>This group includes email, Web and chat clients as well as browser plugins.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">amule</packagereq>
+      <packagereq type="optional">comical</packagereq>
+      <packagereq type="optional">gecko-mediaplayer</packagereq>
+      <packagereq type="optional">mozilla-vlc</packagereq>
+      <packagereq type="optional">xchat-amule</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>rpmfusion_free-hardware-support</id>
+    <_name>Hardware Support (RPM Fusion Free)</_name>
+    <_description>This group is a collection of tools for various hardware specific utilities.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">foo2hiperc</packagereq>
+      <packagereq type="default">foo2hp</packagereq>
+      <packagereq type="default">foo2lava</packagereq>
+      <packagereq type="default">foo2qpdl</packagereq>
+      <packagereq type="default">foo2slx</packagereq>
+      <packagereq type="default">foo2xqx</packagereq>
+      <packagereq type="default">foo2zjs</packagereq>
+      <packagereq type="default">freetype-freeworld</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>rpmfusion_free-sound-and-video</id>
+    <_name>Sound and Video (RPM Fusion Free)</_name>
+    <_description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">audacity-freeworld</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-aac</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-alac</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-lame</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-mms</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-mp3</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-tta</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-wma</packagereq>
+      <packagereq type="optional">avidemux</packagereq>
+      <packagereq type="optional">devede</packagereq>
+      <packagereq type="optional">dvdauthor</packagereq>
+      <packagereq type="optional">dvdstyler</packagereq>
+      <packagereq type="optional">mencoder</packagereq>
+      <packagereq type="optional">mpg321</packagereq>
+      <packagereq type="optional">mplayer</packagereq>
+      <packagereq type="optional">mplayer-doc</packagereq>
+      <packagereq type="optional">mplayer-gui</packagereq>
+      <packagereq type="optional">streamripper</packagereq>
+      <packagereq type="optional">transcode</packagereq>
+      <packagereq type="optional">xine</packagereq>
+      <packagereq type="optional">xine-lib-extras-freeworld</packagereq>
+      <packagereq type="optional">vlc</packagereq>
+      <packagereq type="optional">vdradmin-am</packagereq>
+      <packagereq type="optional">vdrsync</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>rpmfusion_free-misc-tools</id>
+    <_name>Miscellaneous command line tools (RPM Fusion Free)</_name>
+    <_description>Miscellaneous command line tools</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">a52dec</packagereq>
+      <packagereq type="optional">ffmpeg2theora</packagereq>
+      <packagereq type="optional">lame-mp3x</packagereq>
+      <packagereq type="optional">libquicktime-utils</packagereq>
+      <packagereq type="optional">madplay</packagereq>
+      <packagereq type="optional">mencoder</packagereq>
+      <packagereq type="optional">mjpegtools-gui</packagereq>
+      <packagereq type="optional">mp3gain</packagereq>
+      <packagereq type="optional">mpd</packagereq>
+      <packagereq type="optional">mpeg2dec</packagereq>
+      <packagereq type="optional">mpg321</packagereq>
+      <packagereq type="optional">mpgtx</packagereq>
+      <packagereq type="optional">vdr-burn</packagereq>
+      <packagereq type="optional">vdr-dxr3</packagereq>
+      <packagereq type="optional">vdr-mp3</packagereq>
+      <packagereq type="optional">vdr-mplayer</packagereq>
+      <packagereq type="optional">vdr-remote</packagereq>
+      <packagereq type="optional">twolame</packagereq>
+      <packagereq type="optional">vdrsync</packagereq>
+      <packagereq type="optional">x264-gui</packagereq>
+      <packagereq type="optional">xvidcap</packagereq>
+      <packagereq type="optional">y4mscaler</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>rpmfusion_free-misc-libs</id>
+    <_name>Miscellaneous libs (RPM Fusion Free)</_name>
+    <_description>Miscellaneous libs</_description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="optional">faac</packagereq>
+      <packagereq type="optional">faad2</packagereq>
+      <packagereq type="optional">ffmpeg</packagereq>
+      <packagereq type="optional">jbigkit</packagereq>
+      <packagereq type="optional">lame</packagereq>
+      <packagereq type="optional">libdca</packagereq>
+      <packagereq type="optional">libdvbpsi</packagereq>
+      <packagereq type="optional">libmad</packagereq>
+      <packagereq type="optional">libmms</packagereq>
+      <packagereq type="optional">libmpeg3</packagereq>
+      <packagereq type="optional">libquicktime</packagereq>
+      <packagereq type="optional">libtunepimp-extras-freeworld</packagereq>
+      <packagereq type="optional">mjpegtools</packagereq>
+      <packagereq type="optional">x264</packagereq>
+      <packagereq type="optional">xvidcore</packagereq>
+    </packagelist>
+  </group>
+  <category>
+    <id>rpmfusion_free</id>
+    <_name>RPM Fusion – Free</_name>
+    <_description>RPM Fusion package add-on repository with open source software.</_description>
+    <grouplist>
+      <groupid>rpmfusion_free-base</groupid>
+      <groupid>rpmfusion_free-hardware-support</groupid>
+      <groupid>rpmfusion_free-gnome-desktop</groupid>
+      <groupid>rpmfusion_free-kde-desktop</groupid>
+      <groupid>rpmfusion_free-sound-and-video</groupid>
+      <groupid>rpmfusion_free-internet</groupid>
+      <groupid>rpmfusion_free-system-tools</groupid>
+      <groupid>rpmfusion_free-games</groupid>
+      <groupid>rpmfusion_free-misc-tools</groupid>
+      <groupid>rpmfusion_free-misc-libs</groupid>
+    </grouplist>
+  </category>
+</comps>
