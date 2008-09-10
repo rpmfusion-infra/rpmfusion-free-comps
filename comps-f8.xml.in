@@ -36,6 +36,7 @@
       <packagereq type="optional">akode-extras</packagereq>
       <packagereq type="optional">k9copy</packagereq>
       <packagereq type="optional">kino</packagereq>
+      <packagereq type="optional">kmediafactory</packagereq>
       <packagereq type="default">k3b-extras-freeworld</packagereq>
       <packagereq type="optional">kplayer</packagereq>
     </packagelist>
@@ -96,6 +97,7 @@
       <packagereq type="optional">mplayer</packagereq>
       <packagereq type="optional">mplayer-doc</packagereq>
       <packagereq type="optional">mplayer-gui</packagereq>
+      <packagereq type="optional">smplayer</packagereq>
       <packagereq type="optional">streamripper</packagereq>
       <packagereq type="optional">transcode</packagereq>
       <packagereq type="optional">xine</packagereq>
