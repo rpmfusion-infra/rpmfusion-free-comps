@@ -97,6 +97,7 @@
       <packagereq type="optional">mplayer</packagereq>
       <packagereq type="optional">mplayer-doc</packagereq>
       <packagereq type="optional">mplayer-gui</packagereq>
+      <packagereq type="optional">qmmp-plugins-freeworld</packagereq>
       <packagereq type="optional">smplayer</packagereq>
       <packagereq type="optional">streamripper</packagereq>
       <packagereq type="optional">transcode</packagereq>
