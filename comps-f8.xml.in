@@ -163,6 +163,30 @@
       <packagereq type="optional">xvidcore</packagereq>
     </packagelist>
   </group>
+  <group>
+    <id>rpmfusion_free-emulators</id>
+    <_name>Emulators (RPM Fusion Free)</_name>
+    <_description>Various emulators for legacy computers and consoles.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">arcem</packagereq>
+      <packagereq type="optional">desmume</packagereq>
+      <packagereq type="optional">desmume-cli</packagereq>
+      <packagereq type="optional">desmume-glade</packagereq>
+      <packagereq type="optional">fceultra</packagereq>
+      <packagereq type="optional">gfceu</packagereq>
+      <packagereq type="optional">gnuboy-fb</packagereq>
+      <packagereq type="optional">gnuboy-sdl</packagereq>
+      <packagereq type="optional">gnuboy-svgalib</packagereq>
+      <packagereq type="optional">gnuboy-x</packagereq>
+      <packagereq type="optional">Nestopia</packagereq>
+      <packagereq type="optional">osmose</packagereq>
+      <packagereq type="optional">plus4emu</packagereq>
+      <packagereq type="optional">scottfree</packagereq>
+      <packagereq type="optional">xroar</packagereq>
+      <packagereq type="optional">zsnes</packagereq>
+   </packagelist>
   <category>
     <id>rpmfusion_free</id>
     <_name>RPM Fusion – Free</_name>
@@ -178,6 +202,7 @@
       <groupid>rpmfusion_free-games</groupid>
       <groupid>rpmfusion_free-misc-tools</groupid>
       <groupid>rpmfusion_free-misc-libs</groupid>
+      <groupid>rpmfusion_free-emulators</groupid>
     </grouplist>
   </category>
 </comps>
