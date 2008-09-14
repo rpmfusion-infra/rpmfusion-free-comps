@@ -35,7 +35,6 @@
       <packagereq type="default">amarok-extras-freeworld</packagereq>
       <packagereq type="optional">akode-extras</packagereq>
       <packagereq type="optional">k9copy</packagereq>
-      <packagereq type="optional">kino</packagereq>
       <packagereq type="optional">kmediafactory</packagereq>
       <packagereq type="default">k3b-extras-freeworld</packagereq>
       <packagereq type="optional">kplayer</packagereq>
@@ -92,6 +91,7 @@
       <packagereq type="optional">devede</packagereq>
       <packagereq type="optional">dvdauthor</packagereq>
       <packagereq type="optional">dvdstyler</packagereq>
+      <packagereq type="optional">kino</packagereq>
       <packagereq type="optional">mencoder</packagereq>
       <packagereq type="optional">mpg321</packagereq>
       <packagereq type="optional">mplayer</packagereq>
