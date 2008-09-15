@@ -92,6 +92,7 @@
       <packagereq type="optional">dvdauthor</packagereq>
       <packagereq type="optional">dvdstyler</packagereq>
       <packagereq type="optional">kino</packagereq>
+      <packagereq type="optional">lastfm</packagereq>
       <packagereq type="optional">mencoder</packagereq>
       <packagereq type="optional">mpg321</packagereq>
       <packagereq type="optional">mplayer</packagereq>
