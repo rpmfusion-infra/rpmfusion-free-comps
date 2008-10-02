@@ -91,11 +91,14 @@
       <packagereq type="optional">devede</packagereq>
       <packagereq type="optional">dvdauthor</packagereq>
       <packagereq type="optional">dvdstyler</packagereq>
+      <packagereq type="optional">ffmpeg</packagereq>
       <packagereq type="optional">ffmpeg2theora</packagereq>
       <packagereq type="optional">kino</packagereq>
       <packagereq type="optional">lame-mp3x</packagereq>
+      <packagereq type="optional">lame</packagereq>
       <packagereq type="optional">lastfm</packagereq>
       <packagereq type="optional">libquicktime-utils</packagereq>
+      <packagereq type="optional">live555-tools</packagereq>
       <packagereq type="optional">madplay</packagereq>
       <packagereq type="optional">mencoder</packagereq>
       <packagereq type="optional">mjpegtools-gui</packagereq>
