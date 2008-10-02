@@ -98,12 +98,10 @@
       <packagereq type="optional">libquicktime-utils</packagereq>
       <packagereq type="optional">madplay</packagereq>
       <packagereq type="optional">mencoder</packagereq>
-      <packagereq type="optional">mencoder</packagereq>
       <packagereq type="optional">mjpegtools-gui</packagereq>
       <packagereq type="optional">mp3gain</packagereq>
       <packagereq type="optional">mpd</packagereq>
       <packagereq type="optional">mpeg2dec</packagereq>
-      <packagereq type="optional">mpg321</packagereq>
       <packagereq type="optional">mpg321</packagereq>
       <packagereq type="optional">mpgtx</packagereq>
       <packagereq type="optional">mplayer-doc</packagereq>
@@ -120,7 +118,6 @@
       <packagereq type="optional">vdr-mp3</packagereq>
       <packagereq type="optional">vdr-mplayer</packagereq>
       <packagereq type="optional">vdr-remote</packagereq>
-      <packagereq type="optional">vdrsync</packagereq>
       <packagereq type="optional">vdrsync</packagereq>
       <packagereq type="optional">vlc</packagereq>
       <packagereq type="optional">x264-gui</packagereq>
