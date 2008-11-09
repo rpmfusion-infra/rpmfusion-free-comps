@@ -4,11 +4,11 @@
   <group>
     <id>rpmfusion_free-base</id>
     <_name>Base (RPM Fusion Free)</_name>
-    <_description>Repo files for RPM Fusion free repo (currently still livna-release for testing purposes). </_description>
+    <_description>Repo files for RPM Fusion free repo. </_description>
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="default">rpmfusion-free-release</packagereq>
+      <packagereq type="mandatory">rpmfusion-free-release</packagereq>
     </packagelist>
   </group>
   <group>
