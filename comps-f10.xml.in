@@ -67,7 +67,7 @@
       <packagereq type="default">foo2slx</packagereq>
       <packagereq type="default">foo2xqx</packagereq>
       <packagereq type="default">foo2zjs</packagereq>
-      <packagereq type="default">freetype-freeworld</packagereq>
+      <packagereq type="optional">freetype-freeworld</packagereq>
     </packagelist>
   </group>
   <group>
