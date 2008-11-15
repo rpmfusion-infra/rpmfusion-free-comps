@@ -181,11 +181,13 @@
       <packagereq type="optional">gnuboy-sdl</packagereq>
       <packagereq type="optional">gnuboy-svgalib</packagereq>
       <packagereq type="optional">gnuboy-x</packagereq>
+      <packagereq type="optional">lxdream</packagereq>
       <packagereq type="optional">Nestopia</packagereq>
       <packagereq type="optional">osmose</packagereq>
       <packagereq type="optional">plus4emu</packagereq>
       <packagereq type="optional">scottfree</packagereq>
       <packagereq type="optional">xroar</packagereq>
+      <packagereq type="optional">yabause</packagereq>
       <packagereq type="optional">zsnes</packagereq>
    </packagelist>
   </group>
