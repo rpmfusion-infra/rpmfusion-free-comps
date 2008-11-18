@@ -32,11 +32,14 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="default">amarok-extras-freeworld</packagereq>
+      <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-ugly</packagereq>
+      <packagereq type="conditional" requires="gstreamer">gstreamer-ffmpeg</packagereq>
+      <packagereq type="default">k3b-extras-freeworld</packagereq>
       <packagereq type="optional">k9copy</packagereq>
       <packagereq type="optional">kmediafactory</packagereq>
-      <packagereq type="default">k3b-extras-freeworld</packagereq>
       <packagereq type="optional">kplayer</packagereq>
+      <packagereq type="conditional" requires="libtunepimp">libtunepimp-extras-freeworld</packagereq>
+      <packagereq type="default">xine-lib-extras-freeworld</packagereq>
     </packagelist>
   </group>
   <group>
@@ -94,11 +97,18 @@
       <packagereq type="optional">dvdstyler</packagereq>
       <packagereq type="optional">ffmpeg</packagereq>
       <packagereq type="optional">ffmpeg2theora</packagereq>
+      <packagereq type="default">gstreamer-ffmpeg</packagereq>
+      <packagereq type="default">gstreamer-plugins-ugly</packagereq>
+      <packagereq type="conditional" requires="k3b">k3b-extras-freeworld</packagereq>
+      <packagereq type="optional">k9copy</packagereq>
       <packagereq type="optional">kino</packagereq>
+      <packagereq type="optional">kmediafactory</packagereq>
+      <packagereq type="optional">kplayer</packagereq>
       <packagereq type="optional">lame-mp3x</packagereq>
       <packagereq type="optional">lame</packagereq>
       <packagereq type="optional">lastfm</packagereq>
       <packagereq type="optional">libquicktime-utils</packagereq>
+      <packagereq type="conditional" requires="libtunepimp">libtunepimp-extras-freeworld</packagereq>
       <packagereq type="optional">live555-tools</packagereq>
       <packagereq type="optional">madplay</packagereq>
       <packagereq type="optional">mencoder</packagereq>
@@ -130,8 +140,8 @@
       <packagereq type="optional">vdrsync</packagereq>
       <packagereq type="optional">vlc</packagereq>
       <packagereq type="optional">x264-gui</packagereq>
-      <packagereq type="optional">xine-lib-extras-freeworld</packagereq>
       <packagereq type="optional">xine</packagereq>
+      <packagereq type="conditional" requires="xine-lib">xine-lib-extras-freeworld</packagereq>
       <packagereq type="optional">xvidcap</packagereq>
       <packagereq type="optional">y4mscaler</packagereq>
     </packagelist>
