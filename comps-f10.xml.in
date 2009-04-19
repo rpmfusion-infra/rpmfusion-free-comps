@@ -154,21 +154,36 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">arcem</packagereq>
+      <packagereq type="optional">bubbros</packagereq>
       <packagereq type="optional">desmume</packagereq>
       <packagereq type="optional">desmume-cli</packagereq>
       <packagereq type="optional">desmume-glade</packagereq>
+      <packagereq type="optional">fakenes</packagereq>
       <packagereq type="optional">fceultra</packagereq>
+      <packagereq type="optional">gambatte-qt</packagereq>
+      <packagereq type="optional">gambatte-sdl</packagereq>
+      <packagereq type="optional">gcube</packagereq>
       <packagereq type="optional">gfceu</packagereq>
+      <packagereq type="optional">gltron</packagereq>
       <packagereq type="optional">gnuboy-fb</packagereq>
       <packagereq type="optional">gnuboy-sdl</packagereq>
       <packagereq type="optional">gnuboy-svgalib</packagereq>
       <packagereq type="optional">gnuboy-x</packagereq>
+      <packagereq type="optional">gtetrinet</packagereq>
+      <packagereq type="optional">ltris</packagereq>
       <packagereq type="optional">lxdream</packagereq>
+      <packagereq type="optional">megamario</packagereq>
       <packagereq type="optional">mythgame</packagereq>
       <packagereq type="optional">Nestopia</packagereq>
       <packagereq type="optional">osmose</packagereq>
       <packagereq type="optional">plus4emu</packagereq>
       <packagereq type="optional">scottfree</packagereq>
+      <packagereq type="optional">smc</packagereq>
+      <packagereq type="optional">snowballz</packagereq>
+      <packagereq type="optional">stella</packagereq>
+      <packagereq type="optional">ultrastardx</packagereq>
+      <packagereq type="optional">wormsofprey</packagereq>
+      <packagereq type="optional">wormsofprey-data</packagereq>
       <packagereq type="optional">xroar</packagereq>
       <packagereq type="optional">yabause</packagereq>
       <packagereq type="optional">zsnes</packagereq>
