@@ -126,6 +126,7 @@
       <packagereq type="optional">mythtv-frontend</packagereq>
       <packagereq type="optional">mythtv-setup</packagereq>
       <packagereq type="optional">mythvideo</packagereq>
+      <packagereq type="conditional" requires="picard">picard-freeworld</packagereq>
       <packagereq type="optional">qmmp-plugins-freeworld</packagereq>
       <packagereq type="optional">smplayer</packagereq>
       <packagereq type="optional">streamripper</packagereq>
