@@ -96,6 +96,7 @@
       <packagereq type="optional">dvdauthor</packagereq>
       <packagereq type="optional">dvdstyler</packagereq>
       <packagereq type="optional">ffmpeg</packagereq>
+      <packagereq type="optional">ffmpeg2dirac</packagereq>
       <packagereq type="optional">ffmpeg2theora</packagereq>
       <packagereq type="default">gstreamer-ffmpeg</packagereq>
       <packagereq type="default">gstreamer-plugins-ugly</packagereq>
