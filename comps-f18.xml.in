@@ -23,6 +23,9 @@
       <packagereq type="optional">gstreamer-plugins-bad-extras</packagereq>
       <packagereq type="default">gstreamer-plugins-ugly</packagereq>
       <packagereq type="default">gstreamer-ffmpeg</packagereq>
+      <packagereq type="default">gstreamer1-libav</packagereq>
+      <packagereq type="default">gstreamer1-plugins-bad-freeworld</packagereq>
+      <packagereq type="default">gstreamer1-plugins-ugly</packagereq>
     </packagelist>
   </group>
   <group>
@@ -34,6 +37,9 @@
     <packagelist>
       <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-ugly</packagereq>
       <packagereq type="conditional" requires="gstreamer">gstreamer-ffmpeg</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-bad-freeworld</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-plugins-ugly</packagereq>
+      <packagereq type="conditional" requires="gstreamer1">gstreamer1-libav</packagereq>
       <packagereq type="default">k3b-extras-freeworld</packagereq>
       <packagereq type="optional">k9copy</packagereq>
       <packagereq type="optional">kmediafactory</packagereq>
@@ -100,11 +106,12 @@
       <packagereq type="optional">dvdrip</packagereq>
       <packagereq type="optional">dvdstyler</packagereq>
       <packagereq type="optional">ffmpeg</packagereq>
-      <packagereq type="optional">ffmpeg2dirac</packagereq>
       <packagereq type="optional">ffmpeg2theora</packagereq>
       <packagereq type="optional">get_iplayer</packagereq>
       <packagereq type="default">gstreamer-ffmpeg</packagereq>
       <packagereq type="default">gstreamer-plugins-ugly</packagereq>
+      <packagereq type="default">gstreamer1-libav</packagereq>
+      <packagereq type="default">gstreamer1-plugins-ugly</packagereq>
       <packagereq type="conditional" requires="k3b">k3b-extras-freeworld</packagereq>
       <packagereq type="optional">k9copy</packagereq>
       <packagereq type="optional">kmediafactory</packagereq>
@@ -134,7 +141,7 @@
       <packagereq type="optional">mythvideo</packagereq>
       <packagereq type="conditional" requires="picard">picard-freeworld</packagereq>
       <packagereq type="conditional" requires="qmmp">qmmp-plugins-freeworld</packagereq>
-      <packagereq type="optional">qtractor</packagereq>
+      <packagereq type="optional">qtractor-freeworld</packagereq>
       <packagereq type="optional">rtpmdump</packagereq>
       <packagereq type="optional">smplayer</packagereq>
       <packagereq type="optional">sonic-visualiser-freeworld</packagereq>
