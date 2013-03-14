@@ -60,7 +60,6 @@
       <packagereq type="optional">gecko-mediaplayer</packagereq>
       <packagereq type="optional">mozilla-vlc</packagereq>
       <packagereq type="optional">mythbrowser</packagereq>
-      <packagereq type="optional">thunderbird-enigmail</packagereq>
       <packagereq type="optional">xchat-amule</packagereq>
     </packagelist>
   </group>
@@ -71,13 +70,6 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="default">foo2hiperc</packagereq>
-      <packagereq type="default">foo2hp</packagereq>
-      <packagereq type="default">foo2lava</packagereq>
-      <packagereq type="default">foo2qpdl</packagereq>
-      <packagereq type="default">foo2slx</packagereq>
-      <packagereq type="default">foo2xqx</packagereq>
-      <packagereq type="default">foo2zjs</packagereq>
       <packagereq type="optional">freetype-freeworld</packagereq>
     </packagelist>
   </group>
