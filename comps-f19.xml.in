@@ -18,7 +18,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="default">gnome-mplayer</packagereq>
+      <packagereq type="optional">gnome-mplayer</packagereq>
       <packagereq type="optional">gstreamer-plugins-bad</packagereq>
       <packagereq type="optional">gstreamer-plugins-bad-extras</packagereq>
       <packagereq type="default">gstreamer-plugins-ugly</packagereq>
