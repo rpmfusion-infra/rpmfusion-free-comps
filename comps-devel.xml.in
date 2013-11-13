@@ -42,10 +42,10 @@
       <packagereq type="conditional" requires="gstreamer1">gstreamer1-libav</packagereq>
       <packagereq type="default">k3b-extras-freeworld</packagereq>
       <packagereq type="optional">k9copy</packagereq>
+      <packagereq type="optional">kaffeine</packagereq>
       <packagereq type="optional">kmediafactory</packagereq>
       <packagereq type="optional">kplayer</packagereq>
       <packagereq type="conditional" requires="libtunepimp">libtunepimp-extras-freeworld</packagereq>
-      <packagereq type="default">xine-lib-extras-freeworld</packagereq>
     </packagelist>
   </group>
   <group>
