@@ -98,7 +98,6 @@
       <packagereq type="optional">dvdrip</packagereq>
       <packagereq type="optional">dvdstyler</packagereq>
       <packagereq type="optional">ffmpeg</packagereq>
-      <packagereq type="optional">ffmpeg2theora</packagereq>
       <packagereq type="optional">get_iplayer</packagereq>
       <packagereq type="default">gstreamer-ffmpeg</packagereq>
       <packagereq type="default">gstreamer-plugins-ugly</packagereq>
