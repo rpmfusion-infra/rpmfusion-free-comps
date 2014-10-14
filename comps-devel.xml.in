@@ -130,7 +130,6 @@
       <packagereq type="optional">mythtv-frontend</packagereq>
       <packagereq type="optional">mythtv-setup</packagereq>
       <packagereq type="optional">mythvideo</packagereq>
-      <packagereq type="conditional" requires="picard">picard-freeworld</packagereq>
       <packagereq type="conditional" requires="qmmp">qmmp-plugins-freeworld</packagereq>
       <packagereq type="optional">qtractor-freeworld</packagereq>
       <packagereq type="optional">rtpmdump</packagereq>
@@ -142,17 +141,15 @@
       <packagereq type="optional">twolame</packagereq>
       <packagereq type="optional">vdradmin-am</packagereq>
       <packagereq type="optional">vdr-burn</packagereq>
-      <packagereq type="optional">vdr-dxr3</packagereq>
       <packagereq type="optional">vdr-mp3</packagereq>
       <packagereq type="optional">vdr-mplayer</packagereq>
       <packagereq type="optional">vdr-remote</packagereq>
       <packagereq type="optional">vdrsync</packagereq>
       <packagereq type="optional">vlc</packagereq>
-      <packagereq type="optional">vlmc</packagereq>
       <packagereq type="optional">x264-gui</packagereq>
       <packagereq type="optional">xbmc</packagereq>
       <packagereq type="optional">xine</packagereq>
-      <packagereq type="conditional" requires="xine-lib">xine-lib-extras-freeworld</packagereq>
+      <packagereq type="optional">xine-lib</packagereq>
       <packagereq type="conditional" requires="xmms2">xmms2-freeworld</packagereq>
       <packagereq type="optional">xvidcap</packagereq>
       <packagereq type="optional">y4mscaler</packagereq>
