@@ -9,6 +9,7 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">rpmfusion-free-release</packagereq>
+      <packagereq type="conditional" requires="appstream-data">rpmfusion-free-appstream-data</packagereq>
     </packagelist>
   </group>
   <group>
