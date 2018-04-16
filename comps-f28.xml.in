@@ -125,7 +125,7 @@
       <packagereq type="conditional" requires="k3b">k3b-extras-freeworld</packagereq>
       <packagereq type="conditional" requires="qmmp">qmmp-plugins-freeworld</packagereq>
       <packagereq type="conditional" requires="xmms2">xmms2-freeworld</packagereq>
-      <packagereq type="optional">alsa-plugins-freeworld-lavcrate</packagereq>
+      <packagereq type="optional">alsa-plugins-freeworld-lavrate</packagereq>
       <packagereq type="optional">audacious-plugins-freeworld</packagereq>
       <packagereq type="optional">audacious-plugins-freeworld-aac</packagereq>
       <packagereq type="optional">audacious-plugins-freeworld-mms</packagereq>
