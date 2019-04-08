@@ -73,7 +73,6 @@
     <packagelist>
       <packagereq type="optional">amule</packagereq>
       <packagereq type="optional">mythbrowser</packagereq>
-      <packagereq type="optional">npapi-vlc</packagereq>
     </packagelist>
   </group>
   <group>
@@ -83,7 +82,8 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">freetype-freeworld</packagereq>
+      <packagereq type="conditional" requires="libva">intel-media-driver</packagereq>
+      <packagereq type="conditional" requires="libva">libva-vaapi-driver</packagereq>
     </packagelist>
   </group>
   <group>
@@ -93,8 +93,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="default">k3b-extras-freeworld</packagereq>
-      <packagereq type="optional">k9copy</packagereq>
+      <packagereq type="conditional" requires="k3b">k3b-extras-freeworld</packagereq>
       <packagereq type="optional">kaffeine</packagereq>
       <packagereq type="optional">kplayer</packagereq>
     </packagelist>
@@ -137,7 +136,6 @@
       <packagereq type="optional">dvdstyler</packagereq>
       <packagereq type="optional">ffmpeg</packagereq>
       <packagereq type="optional">get_iplayer</packagereq>
-      <packagereq type="optional">k9copy</packagereq>
       <packagereq type="optional">kodi</packagereq>
       <packagereq type="optional">kplayer</packagereq>
       <packagereq type="optional">lame</packagereq>
