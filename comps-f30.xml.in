@@ -131,7 +131,6 @@
       <packagereq type="optional">avidemux</packagereq>
       <packagereq type="optional">devedeng</packagereq>
       <packagereq type="optional">dvdauthor</packagereq>
-      <packagereq type="optional">dvdrip</packagereq>
       <packagereq type="optional">dvdstyler</packagereq>
       <packagereq type="optional">ffmpeg</packagereq>
       <packagereq type="optional">get_iplayer</packagereq>
