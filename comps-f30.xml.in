@@ -95,7 +95,6 @@
     <packagelist>
       <packagereq type="conditional" requires="k3b">k3b-extras-freeworld</packagereq>
       <packagereq type="optional">kaffeine</packagereq>
-      <packagereq type="optional">kplayer</packagereq>
     </packagelist>
   </group>
   <group>
