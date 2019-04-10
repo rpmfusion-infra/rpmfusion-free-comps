@@ -158,7 +158,6 @@
       <packagereq type="optional">smplayer</packagereq>
       <packagereq type="optional">sonic-visualiser-freeworld</packagereq>
       <packagereq type="optional">streamripper</packagereq>
-      <packagereq type="optional">transcode</packagereq>
       <packagereq type="optional">traverso</packagereq>
       <packagereq type="optional">twolame</packagereq>
       <packagereq type="optional">vdr-burn</packagereq>
