@@ -136,7 +136,6 @@
       <packagereq type="optional">ffmpeg</packagereq>
       <packagereq type="optional">get_iplayer</packagereq>
       <packagereq type="optional">kodi</packagereq>
-      <packagereq type="optional">kplayer</packagereq>
       <packagereq type="optional">lame</packagereq>
       <packagereq type="optional">lame-mp3x</packagereq>
       <packagereq type="optional">libquicktime-utils</packagereq>
