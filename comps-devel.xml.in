@@ -95,7 +95,6 @@
     <packagelist>
       <packagereq type="conditional" requires="k3b">k3b-extras-freeworld</packagereq>
       <packagereq type="optional">kaffeine</packagereq>
-      <packagereq type="optional">kplayer</packagereq>
     </packagelist>
   </group>
   <group>
@@ -132,12 +131,10 @@
       <packagereq type="optional">avidemux</packagereq>
       <packagereq type="optional">devedeng</packagereq>
       <packagereq type="optional">dvdauthor</packagereq>
-      <packagereq type="optional">dvdrip</packagereq>
       <packagereq type="optional">dvdstyler</packagereq>
       <packagereq type="optional">ffmpeg</packagereq>
       <packagereq type="optional">get_iplayer</packagereq>
       <packagereq type="optional">kodi</packagereq>
-      <packagereq type="optional">kplayer</packagereq>
       <packagereq type="optional">lame</packagereq>
       <packagereq type="optional">lame-mp3x</packagereq>
       <packagereq type="optional">libquicktime-utils</packagereq>
@@ -160,7 +157,6 @@
       <packagereq type="optional">smplayer</packagereq>
       <packagereq type="optional">sonic-visualiser-freeworld</packagereq>
       <packagereq type="optional">streamripper</packagereq>
-      <packagereq type="optional">transcode</packagereq>
       <packagereq type="optional">traverso</packagereq>
       <packagereq type="optional">twolame</packagereq>
       <packagereq type="optional">vdr-burn</packagereq>
