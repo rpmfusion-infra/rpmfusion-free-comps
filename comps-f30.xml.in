@@ -13,6 +13,19 @@
     </packagelist>
   </group>
   <group>
+    <id>deepin-desktop</id>
+    <_name>Deepin Desktop Environment</_name>
+    <_description>Deepin desktop is the desktop environment released with deepin which aims at being elegant and easy to use.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">deepin-movie</packagereq>
+      <packagereq type="optional">deepin-music</packagereq>
+      <packagereq type="optional">deepin-screen-recorder</packagereq>
+      <packagereq type="optional">deepin-voice-recorder</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>games</id>
     <_name>Games and Entertainment</_name>
     <_description>Various ways to relax and spend your free time.</_description>
