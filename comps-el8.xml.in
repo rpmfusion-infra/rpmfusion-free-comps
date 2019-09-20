@@ -72,7 +72,6 @@
     <packagelist>
       <packagereq type="optional">amule</packagereq>
       <packagereq type="optional">mythbrowser</packagereq>
-      <packagereq type="optional">npapi-vlc</packagereq>
       <packagereq type="optional">xchat-amule</packagereq>
     </packagelist>
   </group>
