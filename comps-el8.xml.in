@@ -59,7 +59,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">gstreamer-plugins-bad</packagereq>
+      <packagereq type="optional">gstreamer1-libav</packagereq>
       <packagereq type="optional">vlc</packagereq>
     </packagelist>
   </group>
@@ -72,7 +72,6 @@
     <packagelist>
       <packagereq type="optional">amule</packagereq>
       <packagereq type="optional">mythbrowser</packagereq>
-      <packagereq type="optional">xchat-amule</packagereq>
     </packagelist>
   </group>
   <group>
@@ -82,7 +81,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">freetype-freeworld</packagereq>
+      <packagereq type="conditional" requires="libva">libva-vaapi-driver</packagereq>
     </packagelist>
   </group>
   <group>
@@ -108,8 +107,6 @@
       <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad-freeworld</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
-      <packagereq type="conditional" requires="gstreamer">gstreamer-ffmpeg</packagereq>
-      <packagereq type="conditional" requires="gstreamer">gstreamer-plugins-ugly</packagereq>
     </packagelist>
   </group>
   <group>
@@ -160,9 +157,7 @@
       <packagereq type="optional">mythtv-setup</packagereq>
       <packagereq type="optional">rtmpdump</packagereq>
       <packagereq type="optional">smplayer</packagereq>
-      <packagereq type="optional">sonic-visualiser-freeworld</packagereq>
       <packagereq type="optional">streamripper</packagereq>
-      <packagereq type="optional">transcode</packagereq>
       <packagereq type="optional">traverso</packagereq>
       <packagereq type="optional">twolame</packagereq>
       <packagereq type="optional">vdr-burn</packagereq>
