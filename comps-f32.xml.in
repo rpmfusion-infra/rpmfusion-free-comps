@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+    <id>core</id>
+    <_name>Core</_name>
+    <_description>Smallest possible installation</_description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">rpmfusion-free-release</packagereq>
+      <packagereq type="conditional" requires="appstream-data">rpmfusion-free-appstream-data</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>deepin-desktop</id>
+    <_name>Deepin Desktop Environment</_name>
+    <_description>Deepin desktop is the desktop environment released with deepin which aims at being elegant and easy to use.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">deepin-movie</packagereq>
+      <packagereq type="optional">deepin-music</packagereq>
+      <packagereq type="optional">deepin-screen-recorder</packagereq>
+      <packagereq type="optional">deepin-voice-recorder</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>games</id>
+    <_name>Games and Entertainment</_name>
+    <_description>Various ways to relax and spend your free time.</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">arcem</packagereq>
+      <packagereq type="optional">bubbros</packagereq>
+      <packagereq type="optional">desmume</packagereq>
+      <packagereq type="optional">desmume-cli</packagereq>
+      <packagereq type="optional">desmume-glade</packagereq>
+      <packagereq type="optional">dolphin-emu</packagereq>
+      <packagereq type="optional">fakenes</packagereq>
+      <packagereq type="optional">fceux</packagereq>
+      <packagereq type="optional">gambatte-qt</packagereq>
+      <packagereq type="optional">gambatte-sdl</packagereq>
+      <packagereq type="optional">gcube</packagereq>
+      <packagereq type="optional">gltron</packagereq>
+      <packagereq type="optional">gnuboy-fb</packagereq>
+      <packagereq type="optional">gnuboy-sdl</packagereq>
+      <packagereq type="optional">gnuboy-svgalib</packagereq>
+      <packagereq type="optional">gnuboy-x</packagereq>
+      <packagereq type="optional">gtetrinet</packagereq>
+      <packagereq type="optional">ltris</packagereq>
+      <packagereq type="optional">lxdream</packagereq>
+      <packagereq type="optional">megamario</packagereq>
+      <packagereq type="optional">mythgame</packagereq>
+      <packagereq type="optional">Nestopia</packagereq>
+      <packagereq type="optional">osmose</packagereq>
+      <packagereq type="optional">scottfree</packagereq>
+      <packagereq type="optional">smc</packagereq>
+      <packagereq type="optional">stella</packagereq>
+      <packagereq type="optional">wormsofprey</packagereq>
+      <packagereq type="optional">wormsofprey-data</packagereq>
+      <packagereq type="optional">xroar</packagereq>
+      <packagereq type="optional">yabause</packagereq>
+      <packagereq type="optional">zboy</packagereq>
+      <packagereq type="optional">zsnes</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>gnome-desktop</id>
+    <_name>GNOME Desktop Environment</_name>
+    <_description>GNOME is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">vlc</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>graphical-internet</id>
+    <_name>Graphical Internet</_name>
+    <_description>This group includes graphical email, Web, and chat clients.</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">amule</packagereq>
+      <packagereq type="optional">mythbrowser</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>hardware-support</id>
+    <_name>Hardware Support</_name>
+    <_description>This group is a collection of tools for various hardware specific utilities.</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="conditional" requires="libva">intel-media-driver</packagereq>
+      <packagereq type="conditional" requires="libva">libva-vaapi-driver</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>kde-desktop</id>
+    <_name>KDE (K Desktop Environment)</_name>
+    <_description>KDE is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="conditional" requires="k3b">k3b-extras-freeworld</packagereq>
+      <packagereq type="optional">kaffeine</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>multimedia</id>
+    <_name>Multimedia</_name>
+    <_description>Audio/video framework common to desktops</_description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq>gstreamer1-libav</packagereq>
+      <packagereq>gstreamer1-plugins-bad-freeworld</packagereq>
+      <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq type="conditional" requires="chromium">chromium-libs-media-freeworld</packagereq>
+      <packagereq type="conditional" requires="firefox">ffmpeg-libs</packagereq>
+      <packagereq type="conditional" requires="qt5-qtwebengine">qt5-qtwebengine-freeworld</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>sound-and-video</id>
+    <_name>Sound and Video</_name>
+    <_description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="conditional" requires="k3b">k3b-extras-freeworld</packagereq>
+      <packagereq type="conditional" requires="qmmp">qmmp-plugins-freeworld</packagereq>
+      <packagereq type="conditional" requires="xmms2">xmms2-freeworld</packagereq>
+      <packagereq type="optional">alsa-plugins-freeworld-lavrate</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-aac</packagereq>
+      <packagereq type="optional">audacious-plugins-freeworld-mms</packagereq>
+      <packagereq type="optional">audacity-freeworld</packagereq>
+      <packagereq type="optional">avidemux</packagereq>
+      <packagereq type="optional">devedeng</packagereq>
+      <packagereq type="optional">dvdauthor</packagereq>
+      <packagereq type="optional">dvdstyler</packagereq>
+      <packagereq type="optional">ffmpeg</packagereq>
+      <packagereq type="optional">get_iplayer</packagereq>
+      <packagereq type="optional">kodi</packagereq>
+      <packagereq type="optional">lame</packagereq>
+      <packagereq type="optional">lame-mp3x</packagereq>
+      <packagereq type="optional">libquicktime-utils</packagereq>
+      <packagereq type="optional">live555-tools</packagereq>
+      <packagereq type="optional">mencoder</packagereq>
+      <packagereq type="optional">mjpegtools-gui</packagereq>
+      <packagereq type="optional">motion</packagereq>
+      <packagereq type="optional">mp3gain</packagereq>
+      <packagereq type="optional">mpd</packagereq>
+      <packagereq type="optional">mpeg2dec</packagereq>
+      <packagereq type="optional">mpgtx</packagereq>
+      <packagereq type="optional">mplayer</packagereq>
+      <packagereq type="optional">mplayer-doc</packagereq>
+      <packagereq type="optional">mplayer-gui</packagereq>
+      <packagereq type="optional">mythmusic</packagereq>
+      <packagereq type="optional">mythtv-backend</packagereq>
+      <packagereq type="optional">mythtv-frontend</packagereq>
+      <packagereq type="optional">mythtv-setup</packagereq>
+      <packagereq type="optional">rtmpdump</packagereq>
+      <packagereq type="optional">smplayer</packagereq>
+      <packagereq type="optional">sonic-visualiser-freeworld</packagereq>
+      <packagereq type="optional">streamripper</packagereq>
+      <packagereq type="optional">traverso</packagereq>
+      <packagereq type="optional">twolame</packagereq>
+      <packagereq type="optional">vdr-burn</packagereq>
+      <packagereq type="optional">vdr-mp3</packagereq>
+      <packagereq type="optional">vdr-mplayer</packagereq>
+      <packagereq type="optional">vdrsync</packagereq>
+      <packagereq type="optional">vlc</packagereq>
+      <packagereq type="optional">xine-lib</packagereq>
+      <packagereq type="optional">xine-ui</packagereq>
+    </packagelist>
+  </group>
+</comps>
