@@ -119,7 +119,6 @@
       <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad-freeworld</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
-      <packagereq type="conditional" requires="chromium">chromium-libs-media-freeworld</packagereq>
       <packagereq type="conditional" requires="firefox">ffmpeg-libs</packagereq>
       <packagereq type="conditional" requires="qt5-qtwebengine">qt5-qtwebengine-freeworld</packagereq>
     </packagelist>
