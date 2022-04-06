@@ -111,6 +111,7 @@
       <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad-freeworld</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq>ffmpeg</packagereq>
       <packagereq type="conditional" requires="firefox">ffmpeg-libs</packagereq>
       <packagereq type="conditional" requires="firefox">compat-ffmpeg4</packagereq>
       <packagereq type="conditional" requires="pipewire">pipewire-codec-aptx</packagereq>
