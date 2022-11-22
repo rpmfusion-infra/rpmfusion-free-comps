@@ -87,8 +87,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="conditional" requires="libva">intel-media-driver</packagereq>
-      <packagereq type="conditional" requires="libva">libva-intel-driver</packagereq>
+      <packagereq arch="x86_64" type="conditional" requires="libva">libva-intel-driver</packagereq>
     </packagelist>
   </group>
   <group>
