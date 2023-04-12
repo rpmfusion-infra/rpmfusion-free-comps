@@ -114,7 +114,7 @@
       <packagereq type="conditional" requires="firefox">ffmpeg-libs</packagereq>
       <packagereq type="conditional" requires="gimp">gimp-heif-plugin</packagereq>
       <packagereq type="conditional" requires="libavcodec-free">libavcodec-freeworld</packagereq>
-      <packagereq type="conditional" requires="libheif">libheif-hevc</packagereq>
+      <packagereq type="conditional" requires="libheif">libheif-freeworld</packagereq>
       <packagereq type="conditional" requires="pipewire">pipewire-codec-aptx</packagereq>
       <packagereq type="conditional" requires="qt5-qtwebengine">qt5-qtwebengine-freeworld</packagereq>
     </packagelist>
