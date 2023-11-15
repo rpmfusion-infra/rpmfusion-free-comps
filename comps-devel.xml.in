@@ -110,8 +110,8 @@
       <packagereq>gstreamer1-plugins-bad-freeworld</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
       <packagereq>ffmpeg</packagereq>
-      <packagereq type="conditional" requires="chromium">ffmpeg-libs</packagereq>
-      <packagereq type="conditional" requires="firefox">ffmpeg-libs</packagereq>
+      <packagereq type="conditional" requires="chromium">libavcodec-freeworld</packagereq>
+      <packagereq type="conditional" requires="firefox">libavcodec-freeworld</packagereq>
       <packagereq type="conditional" requires="gimp">gimp-heif-plugin</packagereq>
       <packagereq type="conditional" requires="libavcodec-free">libavcodec-freeworld</packagereq>
       <packagereq type="conditional" requires="libheif">libheif-freeworld</packagereq>
