@@ -109,7 +109,6 @@
     <packagelist>
       <packagereq>gstreamer1-plugins-bad-freeworld</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
-      <packagereq type="conditional" requires="ffmpeg">ffmpeg-libs</packagereq>
       <packagereq type="conditional" requires="chromium">libavcodec-freeworld</packagereq>
       <packagereq type="conditional" requires="firefox">libavcodec-freeworld</packagereq>
       <packagereq type="conditional" requires="libavcodec-free">libavcodec-freeworld</packagereq>
