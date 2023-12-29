@@ -107,6 +107,10 @@
       <packagereq>gstreamer1-libav</packagereq>
       <packagereq>gstreamer1-plugins-bad-freeworld</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq type="conditional" requires="chromium">libavcodec-freeworld</packagereq>
+      <packagereq type="conditional" requires="firefox">libavcodec-freeworld</packagereq>
+      <packagereq type="conditional" requires="libavcodec-free">libavcodec-freeworld</packagereq>
+      <packagereq type="conditional" requires="libheif">libheif-freeworld</packagereq>
     </packagelist>
   </group>
   <group>
@@ -131,7 +135,6 @@
       <packagereq type="optional">dvdauthor</packagereq>
       <packagereq type="optional">dvdrip</packagereq>
       <packagereq type="optional">dvdstyler</packagereq>
-      <packagereq type="optional">ffmpeg</packagereq>
       <packagereq type="optional">get_iplayer</packagereq>
       <packagereq type="optional">k9copy</packagereq>
       <packagereq type="optional">kodi</packagereq>
