@@ -115,6 +115,7 @@
       <packagereq type="conditional" requires="libheif">libheif-freeworld</packagereq>
       <packagereq type="conditional" requires="pipewire">pipewire-codec-aptx</packagereq>
       <packagereq type="conditional" requires="qt5-qtwebengine">qt5-qtwebengine-freeworld</packagereq>
+      <packagereq type="conditional" requires="vlc-libs">vlc-plugins-freeworld</packagereq>
     </packagelist>
   </group>
   <group>

@@ -111,6 +111,7 @@
       <packagereq type="conditional" requires="firefox">libavcodec-freeworld</packagereq>
       <packagereq type="conditional" requires="libavcodec-free">libavcodec-freeworld</packagereq>
       <packagereq type="conditional" requires="libheif">libheif-freeworld</packagereq>
+      <packagereq type="conditional" requires="vlc-libs">vlc-plugins-freeworld</packagereq>
     </packagelist>
   </group>
   <group>
