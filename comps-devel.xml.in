@@ -139,7 +139,6 @@
       <packagereq type="optional">kodi</packagereq>
       <packagereq type="optional">lame</packagereq>
       <packagereq type="optional">libquicktime-utils</packagereq>
-      <packagereq type="optional">live555-tools</packagereq>
       <packagereq type="optional">mencoder</packagereq>
       <packagereq type="optional">mjpegtools-gui</packagereq>
       <packagereq type="optional">motion</packagereq>
@@ -157,15 +156,11 @@
       <packagereq type="optional">rtmpdump</packagereq>
       <packagereq type="optional">smplayer</packagereq>
       <packagereq type="optional">streamripper</packagereq>
-      <packagereq type="optional">traverso</packagereq>
       <packagereq type="optional">twolame</packagereq>
       <packagereq type="optional">vdr-burn</packagereq>
       <packagereq type="optional">vdr-mp3</packagereq>
       <packagereq type="optional">vdr-mplayer</packagereq>
       <packagereq type="optional">vdrsync</packagereq>
-      <packagereq type="optional">vlc</packagereq>
-      <packagereq type="optional">xine-lib</packagereq>
-      <packagereq type="optional">xine-ui</packagereq>
     </packagelist>
   </group>
 </comps>
