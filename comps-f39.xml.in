@@ -13,16 +13,6 @@
     </packagelist>
   </group>
   <group>
-    <id>deepin-desktop</id>
-    <_name>Deepin Desktop Environment</_name>
-    <_description>Deepin desktop is the desktop environment released with deepin which aims at being elegant and easy to use.</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="optional">deepin-movie</packagereq>
-    </packagelist>
-  </group>
-  <group>
     <id>games</id>
     <_name>Games and Entertainment</_name>
     <_description>Various ways to relax and spend your free time.</_description>
@@ -32,7 +22,6 @@
       <packagereq type="optional">arcem</packagereq>
       <packagereq type="optional">desmume</packagereq>
       <packagereq type="optional">desmume-cli</packagereq>
-      <packagereq type="optional">desmume-glade</packagereq>
       <packagereq type="optional">dolphin-emu</packagereq>
       <packagereq type="optional">fceux</packagereq>
       <packagereq type="optional">gambatte-qt</packagereq>
@@ -129,7 +118,6 @@
       <packagereq type="conditional" requires="xmms2">xmms2-freeworld</packagereq>
       <packagereq type="optional">audacious-plugins-freeworld</packagereq>
       <packagereq type="optional">audacious-plugins-freeworld-aac</packagereq>
-      <packagereq type="optional">audacious-plugins-freeworld-mms</packagereq>
       <packagereq type="optional">audacity-freeworld</packagereq>
       <packagereq type="optional">avidemux</packagereq>
       <packagereq type="optional">devedeng</packagereq>
@@ -149,7 +137,6 @@
       <packagereq type="optional">mpgtx</packagereq>
       <packagereq type="optional">mplayer</packagereq>
       <packagereq type="optional">mplayer-doc</packagereq>
-      <packagereq type="optional">mplayer-gui</packagereq>
       <packagereq type="optional">mythmusic</packagereq>
       <packagereq type="optional">mythtv-backend</packagereq>
       <packagereq type="optional">mythtv-frontend</packagereq>
