@@ -98,13 +98,18 @@
     <packagelist>
       <packagereq>gstreamer1-plugins-bad-freeworld</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
+      <packagereq type="conditional" requires="audacious-plugins">audacious-plugins-freeworld-aac</packagereq>
       <packagereq type="conditional" requires="chromium">libavcodec-freeworld</packagereq>
       <packagereq type="conditional" requires="firefox">libavcodec-freeworld</packagereq>
       <packagereq type="conditional" requires="libavcodec-free">libavcodec-freeworld</packagereq>
       <packagereq type="conditional" requires="libheif">libheif-freeworld</packagereq>
+      <packagereq type="conditional" requires="obs-studio">obs-studio-freeworld</packagereq>
       <packagereq type="conditional" requires="pipewire">pipewire-codec-aptx</packagereq>
+      <packagereq type="conditional" requires="qmmp">qmmp-plugins-freeworld</packagereq>
       <packagereq type="conditional" requires="qt5-qtwebengine">qt5-qtwebengine-freeworld</packagereq>
       <packagereq type="conditional" requires="vlc-libs">vlc-plugins-freeworld</packagereq>
+      <packagereq type="conditional" requires="xpra">xpra-codecs-freeworld</packagereq>
+      <packagereq type="conditional" requires="xmms2">xmms2-freeworld</packagereq>
     </packagelist>
   </group>
   <group>
@@ -114,10 +119,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="conditional" requires="qmmp">qmmp-plugins-freeworld</packagereq>
-      <packagereq type="conditional" requires="xmms2">xmms2-freeworld</packagereq>
       <packagereq type="optional">audacious-plugins-freeworld</packagereq>
-      <packagereq type="optional">audacious-plugins-freeworld-aac</packagereq>
       <packagereq type="optional">audacity-freeworld</packagereq>
       <packagereq type="optional">avidemux</packagereq>
       <packagereq type="optional">devedeng</packagereq>
@@ -125,7 +127,6 @@
       <packagereq type="optional">dvdstyler</packagereq>
       <packagereq type="optional">get_iplayer</packagereq>
       <packagereq type="optional">kodi</packagereq>
-      <packagereq type="optional">lame</packagereq>
       <packagereq type="optional">libquicktime-utils</packagereq>
       <packagereq type="optional">mencoder</packagereq>
       <packagereq type="optional">mjpegtools-gui</packagereq>
