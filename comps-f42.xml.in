@@ -55,7 +55,8 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">vlc</packagereq>
+      <packagereq type="optional">gstreamer1-plugins-bad-freeworld</packagereq>
+      <packagereq type="optional">gstreamer1-plugins-ugly</packagereq>
     </packagelist>
   </group>
   <group>
@@ -86,7 +87,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">kaffeine</packagereq>
+      <packagereq type="optional">vlc</packagereq>
     </packagelist>
   </group>
   <group>
@@ -98,7 +99,6 @@
     <packagelist>
       <packagereq>gstreamer1-plugins-bad-freeworld</packagereq>
       <packagereq>gstreamer1-plugins-ugly</packagereq>
-      <packagereq type="conditional" requires="audacious-plugins">audacious-plugins-freeworld-aac</packagereq>
       <packagereq type="conditional" requires="chromium">libavcodec-freeworld</packagereq>
       <packagereq type="conditional" requires="firefox">libavcodec-freeworld</packagereq>
       <packagereq type="conditional" requires="libavcodec-free">libavcodec-freeworld</packagereq>
@@ -119,21 +119,14 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">audacious-plugins-freeworld</packagereq>
       <packagereq type="optional">audacity-freeworld</packagereq>
       <packagereq type="optional">avidemux</packagereq>
       <packagereq type="optional">devedeng</packagereq>
-      <packagereq type="optional">dvdauthor</packagereq>
       <packagereq type="optional">dvdstyler</packagereq>
-      <packagereq type="optional">get_iplayer</packagereq>
       <packagereq type="optional">kodi</packagereq>
-      <packagereq type="optional">libquicktime-utils</packagereq>
       <packagereq type="optional">mencoder</packagereq>
-      <packagereq type="optional">mjpegtools-gui</packagereq>
       <packagereq type="optional">motion</packagereq>
-      <packagereq type="optional">mp3gain</packagereq>
       <packagereq type="optional">mpd</packagereq>
-      <packagereq type="optional">mpeg2dec</packagereq>
       <packagereq type="optional">mpgtx</packagereq>
       <packagereq type="optional">mplayer</packagereq>
       <packagereq type="optional">mplayer-doc</packagereq>
@@ -142,9 +135,7 @@
       <packagereq type="optional">mythtv-frontend</packagereq>
       <packagereq type="optional">mythtv-setup</packagereq>
       <packagereq type="optional">rtmpdump</packagereq>
-      <packagereq type="optional">smplayer</packagereq>
       <packagereq type="optional">streamripper</packagereq>
-      <packagereq type="optional">twolame</packagereq>
       <packagereq type="optional">vdr-burn</packagereq>
       <packagereq type="optional">vdr-mp3</packagereq>
       <packagereq type="optional">vdr-mplayer</packagereq>
