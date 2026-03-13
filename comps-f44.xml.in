@@ -108,7 +108,6 @@
       <packagereq type="conditional" requires="qmmp">qmmp-plugins-freeworld</packagereq>
       <packagereq type="conditional" requires="vlc-libs">vlc-plugins-freeworld</packagereq>
       <packagereq type="conditional" requires="xpra">xpra-codecs-freeworld</packagereq>
-      <packagereq type="conditional" requires="xmms2">xmms2-freeworld</packagereq>
     </packagelist>
   </group>
   <group>
