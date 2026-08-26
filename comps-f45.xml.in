@@ -81,16 +81,6 @@
     </packagelist>
   </group>
   <group>
-    <id>kde-desktop</id>
-    <_name>KDE (K Desktop Environment)</_name>
-    <_description>KDE is a powerful graphical user interface which includes a panel, desktop, system icons, and a graphical file manager.</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="optional">vlc</packagereq>
-    </packagelist>
-  </group>
-  <group>
     <id>multimedia</id>
     <_name>Multimedia</_name>
     <_description>Audio/video framework common to desktops</_description>
