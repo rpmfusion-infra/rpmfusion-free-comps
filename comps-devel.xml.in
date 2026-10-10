@@ -95,7 +95,6 @@
       <packagereq type="conditional" requires="libheif">libheif-freeworld</packagereq>
       <packagereq type="conditional" requires="obs-studio">obs-studio-freeworld</packagereq>
       <packagereq type="conditional" requires="pipewire">pipewire-codec-aptx</packagereq>
-      <packagereq type="conditional" requires="qmmp">qmmp-plugins-freeworld</packagereq>
       <packagereq type="conditional" requires="vlc-libs">vlc-plugins-freeworld</packagereq>
       <packagereq type="conditional" requires="xpra">xpra-codecs-freeworld</packagereq>
     </packagelist>
